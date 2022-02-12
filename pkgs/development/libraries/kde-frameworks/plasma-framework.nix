@@ -21,7 +21,7 @@ mkDerivation {
     # patches included in 5.91, fix activity panel pushing windows in wayland
     (fetchpatch {
       url = "https://invent.kde.org/frameworks/plasma-framework/-/commit/d40d36057a0ee9fcb4badc7ff8b56844da79dfc8.diff";
-      sha256 = "09dmzx7dmcjjbw4gm3hrxbmkmqx614h6kznhvbfr9vcw88ymc6a9";
+      sha256 = "sha256-44MUzHJmS08LlWIkJCad+cvXzWicuy9DqGiYEYA0IJM=";
     })
     (fetchpatch {
       url = "https://invent.kde.org/frameworks/plasma-framework/-/commit/b882b34d7b55975f679133ef86cfd12869e8bba5.diff";
